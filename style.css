@@ -1,0 +1,63 @@
+body {
+  font-family: 'Antic Slab', serif; 
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  background-image: url('./images/saltbackground.jpg');
+  background-repeat: no-repeat;
+  background-position: center top
+  
+}
+#columns {
+            width: 200px;
+            float: left;
+            margin-left: 20px;
+            margin-right: 20px;
+            
+            }
+            
+            
+@media (min-width:500px){            
+.column-one{
+		padding-right:60px;
+}    
+.column-three{
+		padding-left:50px;
+}    
+
+}
+          
+p {
+padding-bottom:20px;
+
+}            
+
+P, H1, H2{ text-align: center }
+P, H3 { text-align: left }
+
+h1 {
+	padding-top: 3px;
+	}
+h2 {
+    padding-top: 400px;
+    }
+    
+h3 {
+	padding-top:50px;
+	padding-bottom:20px;
+
+	}
+h4 {
+	padding-bottom:5px
+	}
+#wrap {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+#content {
+    float: left;
+    position: relative;
+    left: -50%;
+}
+
